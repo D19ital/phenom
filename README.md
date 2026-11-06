@@ -1,36 +1,48 @@
 # Phenom
 
+Phenom is a flagship ergonomic split keyboard for those who value precision, speed, and complete control over their workspace.
+
 [Русский](README.ru.md)
 
-Files and documentation for building the Ergohaven Phenom keyboard: case models, PCB manufacturing files, and assembly guides.
+## Features
 
-## Project status
+- Sculpted ergonomic 3D case with individually positioned rows and columns.
+- 58 programmable keys and up to 15 additional layers.
+- Hot-swappable MX switches.
+- Hot-swappable trackball, touchpad, and encoder modules for either half.
+- Scroll, Sniper, and Text modes for trackball and touchpad modules.
+- Key remapping and keyboard configuration through [Entropy](https://entropy.tools/).
+- USB Type-C connectivity.
+- QMK firmware.
 
-This repository is being prepared. Manufacturing files and assembly guides have not been published yet. It is not currently a complete, validated DIY build package.
+## Files
 
-The full-size Phenom is the primary target of the assembly guides. Inclusion of Phenom Mini and Phenom Micro is not yet confirmed.
+Case models, PCB files, and assembly guides will be added as they become available.
 
-## Planned builds
+- `stl/` — printable case and module models.
+- `step/` — editable case and module models in STEP format.
+- `pcb/` — Gerber files, drill files, schematics, and PCB design sources.
+- `build_guide/` — PCB assembly guides in English and Russian, including modules.
+- `handwired/` — handwired assembly guides in English and Russian, without modules, with dedicated `stl/` and `step/` models.
+- `images/` — keyboard photos and illustrations.
 
-- **PCB build:** a new unified switchplate PCB, without connectors between columns or the previous interconnect board; includes pointing-device and encoder modules.
-- **Handwired build:** no modules; planned around RP2040 Zero and directly wired switch rows and columns, following the HPD handwired approach.
+## BOM
 
-**The current firmware must not be assumed compatible with the planned RP2040 Zero wiring.** GPIO mapping changes and validation are required before publishing a supported handwired firmware procedure. Assembly instructions and a tested pinout are not yet available.
-
-## Repository organization
-
-See [the preparation plan and file organization](docs/project-plan.md). Hardware files will be added after their revisions and compatibility have been verified.
-
-## Firmware and configuration
-
-- [Firmware downloads and update instructions](https://docs.eh.works/firmware/)
-- [QMK firmware source](https://github.com/ergohaven/vial-qmk)
-- [Entropy configurator](https://entropy.tools/)
-
-These links describe the existing product ecosystem, not confirmed support for the planned DIY hardware revisions.
+The component list for the new unified-switchplate PCB revision is being prepared. The handwired component list will be included in its assembly guide.
 
 ## License
 
 The files in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-See [LICENSE](LICENSE) for the full license text. Firmware in external repositories is governed by its own license.
+See [LICENSE](LICENSE) for the full text.
+
+## Firmware
+
+- [Pre-compiled files and update instructions](https://docs.eh.works/firmware/)
+- [Source code](https://github.com/ergohaven/vial-qmk)
+
+The RP2040 Zero handwired version requires a separate GPIO mapping adaptation; compatible firmware is not yet provided.
+
+## Availability
+
+The complete keyboard is available for purchase from [Ergohaven](https://eh.works/shop/tproduct/767494027-549625025652-phenom).
