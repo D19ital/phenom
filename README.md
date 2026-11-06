@@ -28,7 +28,101 @@ Case models, PCB files, and assembly guides will be added as they become availab
 
 ## BOM
 
-The component list for the new unified-switchplate PCB revision is being prepared. The handwired component list will be included in its assembly guide
+Switchplate and holder quantities cover both halves. Module and pogo_system board quantities below follow their respective PCB BOMs; additional module parts are listed per module
+
+<details>
+<summary>Switchplate — both halves</summary>
+
+- `ZX-SH1.0-12PWT` — 2 pcs
+- Diode `1N4148WT` — 52 pcs
+- Kailh hot-swap socket `CPG151101S11-16` — 58 pcs
+- `ZX-SH1.0-6PWT` — 2 pcs
+
+[Original BOM (XLSX)](pcb/switchplate/BOM_Phenom_switchplate_v2_2.xlsx)
+
+</details>
+
+<details>
+<summary>Holder — both halves</summary>
+
+- Capacitor 1uF, 0402 — `CC0402MRX5R6BB105` — 4 pcs
+- Capacitor 15pF, 0402 — `0402CG150J500NT` — 4 pcs
+- Capacitor 100nF, 0402 — `CL05B104KB54PNC` — 10 pcs
+- Capacitor 2.2uF, 0402 — `CL05A225MQ5NSNC` — 2 pcs
+- `ZX-SH1.0-12PWT` — 2 pcs
+- `ZX-SH1.0-6PWT` — 2 pcs
+- `ZX-SH1.0-14PWT` — 2 pcs
+- Diode `1N4148WT` — 10 pcs
+- Microcontroller `RP2040` — 2 pcs
+- Resistor 5.1kΩ, 0402 — `0402WGF5101TCE` — 6 pcs
+- Resistor 1kΩ, 0402 — `0402WGF1001TCE` — 2 pcs
+- Resistor 200Ω, 0402 — `0402WGF2000TCE` — 2 pcs
+- Resistor 27Ω, 0402 — `0402WGF270JTCE` — 4 pcs
+- Push button `GT-TC084E-H065-L5` — 4 pcs
+- `662K` — 2 pcs
+- Flash memory `W25Q32JVSSIQ` — 2 pcs
+- USB-C connector `USB-TYPE-C-018` — 4 pcs
+- 12 MHz crystal `XXHCCLNANF-12.000000MHZ` — 2 pcs
+
+[Original BOM (XLSX)](pcb/holder/BOM_Phenom_holder_wired_v2.xlsx)
+
+</details>
+
+<details>
+<summary>Shared module connection board — pogo_system</summary>
+
+- `ZX-SH1.0-4PWT` — 1 pc
+- `ZX-SH1.0-9PWT` — 1 pc
+- `ZX-SH1.0-6PWT` — 1 pc
+- `ZX-SH1.0-14PWT` — 1 pc
+
+[Original BOM (XLSX)](pcb/pogo_system/BOM_Phenom_pogo_system.xlsx)
+
+</details>
+
+<details>
+<summary>Encoder module</summary>
+
+- `ZX-SH1.0-8PWT` — 1 pc
+- Diode `1N4148WT` — 1 pc
+- Resistor 5.1kΩ, 0402 — `0402WGF5101TCE` — 1 pc
+- Resistor 10kΩ, 0402 — `RC0402FR-0710KL` — 1 pc
+- EC11 encoder — 1 pc
+- Encoder cap — 1 pc
+
+[Original BOM (XLSX)](pcb/modules/encoder/BOM_Encoder.xlsx)
+
+</details>
+
+<details>
+<summary>Touchpad module</summary>
+
+- Azoteq TPS43 touchpad — 1 pc
+- PH2.0 connector, 4 pins, 2 mm pitch, 90° — 1 pc
+- PH2.0 cable connector, 4 pins, 2 mm, 6 mm, one head — 1 pc
+
+Uses the shared pogo_system board: solder the PH2.0 connector to the board and the cable to the Azoteq TPS43
+
+</details>
+
+<details>
+<summary>Trackball module</summary>
+
+- Capacitor 100nF, 0402 — `CL05B104KB54PNC` — 4 pcs
+- Capacitor 10uF, 0402 — `CL05A106MQ5NUNC` — 2 pcs
+- Capacitor 10nF, 0402 — `TCC0402X7R103M500AT` — 2 pcs
+- Capacitor 3.3uF, 0402 — `C1005X5R0J335MTJ00E` — 1 pc
+- `ZX-SH1.0-6PWT` — 1 pc
+- Resistor 10kΩ, 0402 — `0402WGF1002TCE` — 1 pc
+- `AMS1117-1.8(SOT89-3)` — 1 pc
+- `PWM3610` sensor — 1 pc
+- `LM18-LSI` lens — 1 pc
+
+[Original BOM (XLSX)](pcb/modules/trackball/BOM_Trackball_v1.xlsx)
+
+</details>
+
+Magnets, fasteners, and remaining cables will be added once the component list is confirmed
 
 ## License
 
