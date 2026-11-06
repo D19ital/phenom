@@ -63,7 +63,7 @@ Switchplate and holder quantities cover both halves. Module and pogo_system boar
 | Resistor 200Ω, 0402 — `0402WGF2000TCE` | 2 pcs |
 | Resistor 27Ω, 0402 — `0402WGF270JTCE` | 4 pcs |
 | Push button `GT-TC084E-H065-L5` | 4 pcs |
-| `662K` | 2 pcs |
+| LDO, SOT-23-3, 662K | 2 pcs |
 | Flash memory `W25Q32JVSSIQ` | 2 pcs |
 | USB-C connector `USB-TYPE-C-018` | 4 pcs |
 | 12 MHz crystal `XXHCCLNANF-12.000000MHZ` | 2 pcs |
