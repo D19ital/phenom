@@ -2,8 +2,6 @@
 
 ![Phenom](images/phenom_red_04.jpg)
 
-[Русский](README.ru.md)
-
 ## Features
 
 - Sculpted ergonomic 3D case with individually positioned rows and columns
@@ -42,8 +40,8 @@ Case models, PCB files, and assembly guides will be added as they become availab
 - `stl/` — printable case and module models
 - `step/` — editable case and module models in STEP format
 - `pcb/` — Gerber files, drill files, schematics, and PCB design sources
-- `build_guide/` — PCB assembly guides in English and Russian, including modules
-- `handwired/` — handwired assembly guides in English and Russian, without modules, with dedicated `stl/` and `step/` models
+- `build_guide/` — PCB assembly guides in English, including modules
+- `handwired/` — handwired assembly guides in English, without modules, with dedicated `stl/` and `step/` models
 - `images/` — keyboard photos and illustrations
 
 ## BOM
