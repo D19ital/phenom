@@ -53,7 +53,7 @@ Case models, PCB files, and assembly guides will be added as they become availab
 Switchplate and holder quantities cover both halves. Module and pogo_system board quantities below follow their respective PCB BOMs; additional module parts are listed per module
 
 <details>
-<summary>Switchplate — both halves</summary>
+<summary><strong>Switchplate — both halves</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
@@ -67,7 +67,7 @@ Switchplate and holder quantities cover both halves. Module and pogo_system boar
 </details>
 
 <details>
-<summary>Holder — both halves</summary>
+<summary><strong>Holder — both halves</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
@@ -95,7 +95,7 @@ Switchplate and holder quantities cover both halves. Module and pogo_system boar
 </details>
 
 <details>
-<summary>Shared module connection board — pogo_system</summary>
+<summary><strong>Shared module connection board — pogo_system</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
@@ -109,7 +109,7 @@ Switchplate and holder quantities cover both halves. Module and pogo_system boar
 </details>
 
 <details>
-<summary>Encoder module</summary>
+<summary><strong>Encoder module</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
@@ -125,7 +125,7 @@ Switchplate and holder quantities cover both halves. Module and pogo_system boar
 </details>
 
 <details>
-<summary>Touchpad module</summary>
+<summary><strong>Touchpad module</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
@@ -138,7 +138,7 @@ Uses the shared pogo_system board: solder the PH2.0 connector to the board and t
 </details>
 
 <details>
-<summary>Trackball module</summary>
+<summary><strong>Trackball module</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
