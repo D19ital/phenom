@@ -2,6 +2,8 @@
 
 Phenom is a flagship ergonomic split keyboard for those who value precision, speed, and complete control over their workspace
 
+![Phenom](images/phenom_red_04.jpg)
+
 [Русский](README.ru.md)
 
 ## Features
@@ -14,6 +16,22 @@ Phenom is a flagship ergonomic split keyboard for those who value precision, spe
 - Key remapping and keyboard configuration through [Entropy](https://entropy.tools/)
 - USB Type-C connectivity
 - QMK firmware
+
+![Phenom — layout](images/phenom_layout_en.png)
+
+<details>
+<summary>Phenom Mini</summary>
+
+![Phenom Mini — layout](images/phenom_mini_layout_en.png)
+
+</details>
+
+<details>
+<summary>Phenom Micro</summary>
+
+![Phenom Micro — layout](images/phenom_micro_layout_en.png)
+
+</details>
 
 ## Files
 

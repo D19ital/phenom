@@ -2,6 +2,8 @@
 
 Phenom — флагманская эргономичная сплит-клавиатура для тех, кто ценит точность, скорость и полный контроль над рабочим пространством
 
+![Phenom](images/phenom_red_04.jpg)
+
 [English](README.md)
 
 ## Features
@@ -14,6 +16,22 @@ Phenom — флагманская эргономичная сплит-клави
 - Переназначение клавиш и настройка клавиатуры через [Entropy](https://entropy.tools/ru/)
 - Подключение через USB Type-C
 - Прошивка QMK
+
+![Phenom — раскладка](images/phenom_layout_ru.png)
+
+<details>
+<summary>Phenom Mini</summary>
+
+![Phenom Mini — раскладка](images/phenom_mini_layout_ru.png)
+
+</details>
+
+<details>
+<summary>Phenom Micro</summary>
+
+![Phenom Micro — раскладка](images/phenom_micro_layout_ru.png)
+
+</details>
 
 ## Files
 
