@@ -22,12 +22,16 @@ Phenom is a flagship ergonomic split keyboard for those who value precision, spe
 <details>
 <summary>Phenom Mini</summary>
 
+46 programmable keys and up to 15 additional layers
+
 ![Phenom Mini — layout](images/phenom_mini_layout_en.png)
 
 </details>
 
 <details>
 <summary>Phenom Micro</summary>
+
+40 programmable keys and up to 15 additional layers
 
 ![Phenom Micro — layout](images/phenom_micro_layout_en.png)
 

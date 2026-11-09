@@ -22,12 +22,16 @@ Phenom — флагманская эргономичная сплит-клави
 <details>
 <summary>Phenom Mini</summary>
 
+46 настраиваемых клавиш и до 15 дополнительных слоёв
+
 ![Phenom Mini — раскладка](images/phenom_mini_layout_ru.png)
 
 </details>
 
 <details>
 <summary>Phenom Micro</summary>
+
+40 настраиваемых клавиш и до 15 дополнительных слоёв
 
 ![Phenom Micro — раскладка](images/phenom_micro_layout_ru.png)
 
