@@ -1,6 +1,4 @@
-# Phenom
-
-Phenom is a flagship ergonomic split keyboard for those who value precision, speed, and complete control over their workspace
+# Phenom — a flagship ergonomic split keyboard for those who value precision, speed, and complete control over their workspace
 
 ![Phenom](images/phenom_red_04.jpg)
 
