@@ -113,7 +113,6 @@ Each module table includes its pogo system base and module boards; do not add an
 | ZX-SH1.0-14PWT | 1 pc |
 | Pogo Pin Connector, 7mm | 8 pcs |
 | EC11 Rotary Encoder | 1 pc |
-| ZX-SH1.0-6PWT | 1 pc |
 | Diode 1N4148WT | 1 pc |
 | Encoder Knob 26x17mm, Black | 1 pc |
 | JST SH 1.0 Cable, 6-Pin, 60mm | 1 pc |
