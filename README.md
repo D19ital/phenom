@@ -35,13 +35,12 @@
 
 ## Files
 
-Case models, PCB files, and assembly guides will be added as they become available
+Files for the PCB version of Phenom and its modules
 
 - [`stl/`](stl/) — printable PCB-version models: [`body/`](stl/body/) and [`modules/`](stl/modules/)
 - [`step/`](step/) — editable PCB-version STEP models: [`body/`](step/body/) and [`modules/`](step/modules/)
-- `pcb/` — Gerber files, drill files, schematics, and PCB design sources
+- [`pcb/`](pcb/) — Gerber archives, schematic PDFs, BOMs and pick-and-place files: [`switchplate/`](pcb/switchplate/), [`holder/`](pcb/holder/), [`pogo_system/`](pcb/pogo_system/) and [`modules/`](pcb/modules/)
 - [`build_guide/`](build_guide/build_guide.en.md) — illustrated PCB assembly guide in English, including modules
-- `handwired/` — handwired assembly guides in English, without modules, with dedicated `stl/` and `step/` models
 - `images/` — keyboard photos and illustrations
 
 ## BOM
@@ -180,7 +179,7 @@ Each module table includes its pogo system base and module boards; do not add an
 
 </details>
 
-PCB manufacturing BOMs and pick-and-place files are available in the corresponding [pcb/](pcb/) directories
+PCB manufacturing BOMs and pick-and-place files: [switchplate](pcb/switchplate/), [holder](pcb/holder/), [pogo system](pcb/pogo_system/), [encoder](pcb/modules/encoder/), [trackball](pcb/modules/trackball/) and [LED board](pcb/modules/)
 
 ## License
 
@@ -192,8 +191,6 @@ See [LICENSE](LICENSE) for the full text
 
 - [Pre-compiled files and update instructions](https://docs.eh.works/firmware/)
 - [Source code](https://github.com/ergohaven/vial-qmk)
-
-The RP2040 Zero handwired version requires a separate GPIO mapping adaptation; compatible firmware is not yet provided
 
 ## Availability
 
