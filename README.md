@@ -1,4 +1,4 @@
-# Phenom — a flagship ergonomic split keyboard for those who value precision, speed, and complete control over their workspace
+# Phenom Series
 
 ![Phenom](images/phenom_red_04.jpg)
 
@@ -11,12 +11,14 @@
 - Scroll, Sniper, and Text modes for trackball and touchpad modules
 - Key remapping and keyboard configuration through [Entropy](https://entropy.tools/)
 - USB Type-C connectivity
-- QMK firmware
+- RMK firmware
 
 ![Phenom — layout](images/phenom_layout_en.png)
 
 <details>
 <summary>Phenom Mini</summary>
+
+![Phenom Mini](images/phenom_mini.jpg)
 
 46 programmable keys and up to 15 additional layers
 
@@ -27,11 +29,17 @@
 <details>
 <summary>Phenom Micro</summary>
 
+![Phenom Micro](images/phenom_micro.jpg)
+
 40 programmable keys and up to 15 additional layers
 
 ![Phenom Micro — layout](images/phenom_micro_layout_en.png)
 
 </details>
+
+## Build guides
+
+- [PCB assembly guide](build_guide/build_guide.md)
 
 ## Files
 
@@ -53,7 +61,7 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Switchplate + thumb keys PCBs | 1 pc |
+| [Switchplate + thumb keys PCBs](pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip) | 1 pc |
 | Diode 1N4148WT | 52 pcs |
 | MX Hotswap sockets | 58 pcs |
 | ZX-SH1.0-6PWT | 2 pcs |
@@ -73,7 +81,7 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| MCU holder PCBs | 1 pc |
+| [MCU holder PCBs](pcb/holder/Gerber_PCB_Phenom_holder.zip) | 1 pc |
 | Capacitor 1uF, 0402 | 4 pcs |
 | Capacitor 15pF, 0402 | 4 pcs |
 | Capacitor 100nF, 0402 | 10 pcs |
@@ -100,10 +108,10 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Encoder PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Encoder PCB](pcb/modules/encoder/Gerber_PCB_Encoder.zip) | 1 pc |
+| [Led PCB](pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -128,9 +136,9 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Led PCB](pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -154,10 +162,10 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Trackball PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Trackball PCB](pcb/modules/trackball/Gerber_PCB_Trackball.zip) | 1 pc |
+| [Led PCB](pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -178,19 +186,17 @@ Each module table includes its pogo system base and module boards; do not add an
 
 </details>
 
-PCB manufacturing BOMs and pick-and-place files: [switchplate](pcb/switchplate/), [holder](pcb/holder/), [pogo system](pcb/pogo_system/), [encoder](pcb/modules/encoder/), [trackball](pcb/modules/trackball/) and [LED board](pcb/modules/)
-
 ## License
 
-The files in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+The files in this repository are licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 
 See [LICENSE](LICENSE) for the full text
 
 ## Firmware
 
 - [Pre-compiled files and update instructions](https://docs.eh.works/firmware/)
-- [Source code](https://github.com/ergohaven/vial-qmk)
+- [Source code](https://github.com/ergohaven/rmk)
 
 ## Availability
 
-The complete keyboard is available for purchase from [Ergohaven](https://eh.works/shop/tproduct/767494027-549625025652-phenom)
+The complete keyboard is available for purchase from [eh.industries](https://eh.industries/)
