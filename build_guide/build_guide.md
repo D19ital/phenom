@@ -161,6 +161,32 @@ The BOM lists 58 MX hot-swap sockets and 52 1N4148WT diodes. The photographs sho
 
 </details>
 
+> [!NOTE]
+> Phenom Mini and Micro halves are assembled in the same way as full-size Phenom. Use the matching housings and bottom covers from the STL and STEP directories
+
+- **Phenom Mini** — left housing: [STL](../stl/body/Phenom-mini-body-left.stl), [STEP](../step/body/Phenom-mini-body-left.stp); right housing: [STL](../stl/body/Phenom-mini-body-right.stl), [STEP](../step/body/Phenom-mini-body-right.stp); left bottom cover: [STL](../stl/body/Phenom-mini-bot-left.stl), [STEP](../step/body/Phenom-mini-bot-left.stp); right bottom cover: [STL](../stl/body/Phenom-mini-bot-right.stl), [STEP](../step/body/Phenom-mini-bot-right.stp)
+- **Phenom Micro** — left housing: [STL](../stl/body/Phenom-micro-body-left.stl), [STEP](../step/body/Phenom-micro-body-left.stp); right housing: [STL](../stl/body/Phenom-micro-body-right.stl), [STEP](../step/body/Phenom-micro-body-right.stp); left bottom cover: [STL](../stl/body/Phenom-micro-bot-left.stl), [STEP](../step/body/Phenom-micro-bot-left.stp); right bottom cover: [STL](../stl/body/Phenom-micro-bot-right.stl), [STEP](../step/body/Phenom-micro-bot-right.stp)
+
+Before fitting the switchplate PCBs into a Mini or Micro housing, remove the unused sections with flush cutters:
+
+- **Mini:** remove the top row from each full-size switchplate PCB
+- **Micro:** remove the top row and the outermost column from each full-size switchplate PCB
+
+Cut only at the green-marked bridges, above the screw-mount tabs of the row that remains. Keep each mounting tab and its screw hole intact. Red shading shows only the PCB sections to discard. The thumb-key PCBs are unchanged. Perform cutting with power disconnected and remove loose fragments before continuing assembly
+
+<details>
+<summary>Mini and Micro — switchplate illustrations</summary>
+
+#### Phenom Mini
+
+![Phenom Mini — remove the top row at the marked bridges](images/phenom_mini_switchplate_cuts.jpg)
+
+#### Phenom Micro
+
+![Phenom Micro — remove the top row and outermost columns](images/phenom_micro_switchplate_cuts.jpg)
+
+</details>
+
 ### Step 02. Install the case magnets (optional)
 
 Magnets secure the modules and wrist rests. Skip this step if you will not use either accessory
