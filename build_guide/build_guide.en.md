@@ -4,6 +4,8 @@
 
 ## Before assembly
 
+Download the PCB-version models: [STL](../stl/) or [STEP](../step/). The `body/` folders contain Phenom, Mini and Micro housings, bottom covers and the module-port plug. The `modules/` folders contain encoder, trackball and touchpad parts in separate subfolders; the shared LED insert is in the `modules/` root
+
 The photographs show boards with SMD components already installed. Full SMD assembly is not covered by this guide
 
 ## BOM
