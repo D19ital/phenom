@@ -65,7 +65,7 @@ Each module table includes its pogo system base and module boards; do not add an
 | M2x4 Screw | 32 pcs |
 | M3x5 Screw | 10 pcs |
 | M3x5 Insert | 10 pcs |
-| Bar Magnet 5Ч2Ч10mm | 18 pcs |
+| Bar Magnet 5x2x10mm | 18 pcs |
 | Bumpons, 8x2 mm | 10 pcs |
 
 </details>
@@ -113,10 +113,11 @@ Each module table includes its pogo system base and module boards; do not add an
 | EC11 Rotary Encoder | 1 pc |
 | ZX-SH1.0-6PWT | 1 pc |
 | Diode 1N4148WT | 1 pc |
-| Encoder Knob 26Ч17mm, Black | 1 pc |
+| Encoder Knob 26x17mm, Black | 1 pc |
 | JST SH 1.0 Cable, 6-Pin, 60mm | 1 pc |
 | JST SH 1.0 Cable, 4-Pin, 50mm | 1 pc |
-| Bar Magnet 5Ч2Ч10mm | 5 pcs |
+| JST SH 1.0 Cable, 14-Pin, 60mm | 1 pc |
+| Bar Magnet 5x2x10mm | 5 pcs |
 | M2x4 Screw | 6 pcs |
 | M2x4 Screw flat | 2 pcs |
 | Bumpons, 8x2 mm | 3 pcs |
@@ -139,7 +140,8 @@ Each module table includes its pogo system base and module boards; do not add an
 | Connector PH2.0 4 pins, 2mm, 90 degree | 1 pc |
 | Cable connector PH2.0 4 Pins, 60mm, one head | 1 pc |
 | JST SH 1.0 Cable, 4-Pin, 50mm | 1 pc |
-| Bar Magnet 5Ч2Ч10mm | 5 pcs |
+| JST SH 1.0 Cable, 14-Pin, 60mm | 1 pc |
+| Bar Magnet 5x2x10mm | 5 pcs |
 | M2x4 Screw flat | 2 pcs |
 | Bumpons, 8x2 mm | 3 pcs |
 
@@ -164,7 +166,8 @@ Each module table includes its pogo system base and module boards; do not add an
 | Lens LM18-LSI | 1 pc |
 | JST SH 1.0 Cable, 6-Pin, 60mm | 1 pc |
 | JST SH 1.0 Cable, 4-Pin, 50mm | 1 pc |
-| Bar Magnet 5Ч2Ч10mm | 8 pcs |
+| JST SH 1.0 Cable, 14-Pin, 60mm | 1 pc |
+| Bar Magnet 5x2x10mm | 8 pcs |
 | M2x4 Screw | 4 pcs |
 | M2x4 Screw flat | 3 pcs |
 | Bumpons, 8x2 mm | 3 pcs |
