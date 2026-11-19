@@ -40,7 +40,7 @@ Case models, PCB files, and assembly guides will be added as they become availab
 - `stl/` — printable case and module models
 - `step/` — editable case and module models in STEP format
 - `pcb/` — Gerber files, drill files, schematics, and PCB design sources
-- `build_guide/` — PCB assembly guides in English, including modules
+- [`build_guide/`](build_guide/build_guide.en.md) — illustrated PCB assembly guide in English, including modules
 - `handwired/` — handwired assembly guides in English, without modules, with dedicated `stl/` and `step/` models
 - `images/` — keyboard photos and illustrations
 
