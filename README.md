@@ -145,6 +145,7 @@ Each module table includes its pogo system base and module boards; do not add an
 | JST SH 1.0 Cable, 4-Pin, 50mm | 1 pc |
 | JST SH 1.0 Cable, 14-Pin, 60mm | 1 pc |
 | Bar Magnet 5x2x10mm | 5 pcs |
+| M2x4 Screw | 2 pcs |
 | M2x4 Screw flat | 2 pcs |
 | Bumpons, 8x2 mm | 3 pcs |
 
