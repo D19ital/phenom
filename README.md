@@ -109,7 +109,7 @@ Each module table includes its pogo system base and module boards; do not add an
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
-| ZX-SH1.0-6PWT | 1 pc |
+| ZX-SH1.0-6PWT | 2 pc |
 | ZX-SH1.0-14PWT | 1 pc |
 | Pogo Pin Connector, 7mm | 8 pcs |
 | EC11 Rotary Encoder | 1 pc |
