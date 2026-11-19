@@ -41,7 +41,6 @@ Files for the PCB version of Phenom and its modules
 - [`step/`](step/) — editable PCB-version STEP models: [`body/`](step/body/) and [`modules/`](step/modules/)
 - [`pcb/`](pcb/) — Gerber archives, schematic PDFs, BOMs and pick-and-place files: [`switchplate/`](pcb/switchplate/), [`holder/`](pcb/holder/), [`pogo_system/`](pcb/pogo_system/) and [`modules/`](pcb/modules/)
 - [`build_guide/`](build_guide/build_guide.en.md) — illustrated PCB assembly guide in English, including modules
-- `images/` — keyboard photos and illustrations
 
 ## BOM
 
