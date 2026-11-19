@@ -46,7 +46,7 @@ Case models, PCB files, and assembly guides will be added as they become availab
 
 ## BOM
 
-The tables below follow the [supplied BOM (RTF)](pcb/BOM%20Phenom.rtf). Quantities are listed as provided for the Phenom body, holder and each module
+Quantities below are listed for the Phenom body, holder and each module
 
 Each module table includes its pogo system base and module boards; do not add another shared pogo system BOM on top of these quantities
 
