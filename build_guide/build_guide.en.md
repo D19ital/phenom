@@ -116,7 +116,7 @@ Each module table includes its pogo system base and module boards; do not add an
 </details>
 
 <details>
-<summary><strong>Trackball module (32mm)</strong></summary>
+<summary><strong>Trackball module</strong></summary>
 
 | Component | Quantity |
 | --- | ---: |
