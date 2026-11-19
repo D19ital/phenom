@@ -19,7 +19,7 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Switchplate + thumb keys PCBs | 1 pc |
+| [Switchplate + thumb keys PCBs](../pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip) | 1 pc |
 | Diode 1N4148WT | 52 pcs |
 | MX Hotswap sockets | 58 pcs |
 | ZX-SH1.0-6PWT | 2 pcs |
@@ -39,7 +39,7 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| MCU holder PCBs | 1 pc |
+| [MCU holder PCBs](../pcb/holder/Gerber_PCB_Phenom_holder.zip) | 1 pc |
 | Capacitor 1uF, 0402 | 4 pcs |
 | Capacitor 15pF, 0402 | 4 pcs |
 | Capacitor 100nF, 0402 | 10 pcs |
@@ -66,10 +66,10 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Encoder PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Encoder PCB](../pcb/modules/encoder/Gerber_PCB_Encoder.zip) | 1 pc |
+| [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -94,9 +94,9 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -120,10 +120,10 @@ Each module table includes its pogo system base and module boards; do not add an
 
 | Component | Quantity |
 | --- | ---: |
-| Pogo system module PCB | 1 pc |
-| Pogo system base PCB | 1 pc |
-| Trackball PCB | 1 pc |
-| Led PCB | 1 pc |
+| [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) | 1 pc |
+| [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) | 1 pc |
+| [Trackball PCB](../pcb/modules/trackball/Gerber_PCB_Trackball.zip) | 1 pc |
+| [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) | 1 pc |
 | LED SK6812 mini-e | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
@@ -150,7 +150,7 @@ PCB manufacturing BOMs and pick-and-place files are available in the correspondi
 
 ### Step 01. Check the case parts
 
-Prepare the left and right housings, bottom covers, switchplate PCBs and thumb-key PCBs. Check the parts against the case and switchplate BOM
+Prepare the left housing ([STL](../stl/body/Phenom-body-left.stl), [STEP](../step/body/Phenom-body-left.stp)) and right housing ([STL](../stl/body/Phenom-body-right.stl), [STEP](../step/body/Phenom-body-right.stp)), left bottom cover ([STL](../stl/body/Phenom-bot-left.stl), [STEP](../step/body/Phenom-bot-left.stp)) and right bottom cover ([STL](../stl/body/Phenom-bot-right.stl), [STEP](../step/body/Phenom-bot-right.stp)), and [switchplate and thumb-key PCBs](../pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip). Check the parts against the case and switchplate BOM
 
 The BOM lists 58 MX hot-swap sockets and 52 1N4148WT diodes. The photographs show populated boards; component assembly is not illustrated here
 
@@ -189,7 +189,7 @@ Prepare 10 M3x5 threaded inserts. Install them in their mounting locations using
 
 ### Step 04. Position the switchplate PCBs
 
-Align the left and right switchplate PCBs with their respective housings. Check that the switch openings and mounting points line up
+Align the left and right [switchplate PCBs](../pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip) with their respective left housing ([STL](../stl/body/Phenom-body-left.stl), [STEP](../step/body/Phenom-body-left.stp)) and right housing ([STL](../stl/body/Phenom-body-right.stl), [STEP](../step/body/Phenom-body-right.stp)). Check that the switch openings and mounting points line up
 
 ![Position the switchplate PCBs — phenom_bg_04_01.jpg](images/phenom_bg_04_01.jpg)
 
@@ -197,7 +197,7 @@ Align the left and right switchplate PCBs with their respective housings. Check 
 
 ### Step 05. Install switches and secure the switchplates
 
-Install MX switches in groups, alternating switch insertion with PCB fastening as shown. The switches align the switchplate before it is secured with screws. Check that each switch has straight pins before inserting it
+Install MX switches in groups, alternating switch insertion with PCB fastening as shown. The switches align the [switchplate PCB](../pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip) before it is secured with screws. Check that each switch has straight pins before inserting it
 
 Use 32 M2x4 screws to secure the switchplates: 16 per half
 
@@ -225,7 +225,7 @@ Use 32 M2x4 screws to secure the switchplates: 16 per half
 
 ### Step 06. Connect the switchplate cables
 
-Prepare two JST SH 1.0 6-Pin 100mm cables and two JST SH 1.0 12-Pin 100mm cables. Connect them to the corresponding switchplate connectors and route them along the inside edges of the housings
+Prepare two JST SH 1.0 6-Pin 100mm cables and two JST SH 1.0 12-Pin 100mm cables. Connect them to the corresponding [switchplate PCB](../pcb/switchplate/Gerber_PCB_Phenom_switchplate.zip) connectors and route them along the inside edges of the housings
 
 Use straight-through cables with pin-to-pin wiring
 
@@ -237,7 +237,7 @@ Use straight-through cables with pin-to-pin wiring
 
 ### Step 07. Connect and secure the holder boards
 
-Prepare the populated holder boards. Connect the switchplate cables to the corresponding ZX-SH1.0-6PWT and ZX-SH1.0-12PWT connectors
+Prepare the populated [holder boards](../pcb/holder/Gerber_PCB_Phenom_holder.zip). Connect the switchplate cables to the corresponding ZX-SH1.0-6PWT and ZX-SH1.0-12PWT connectors
 
 Position the boards at the USB-C openings and secure each board with two M3x5 screws
 
@@ -268,7 +268,7 @@ After testing, disconnect USB power before continuing assembly
 
 The contact boards are needed for modules. Skip this step if you will not use modules
 
-Prepare the contact boards and their cables, then secure the boards to the bottom covers in the positions shown
+Prepare the [base contact boards](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) and their cables, then secure the boards to the left bottom cover ([STL](../stl/body/Phenom-bot-left.stl), [STEP](../step/body/Phenom-bot-left.stp)) and right bottom cover ([STL](../stl/body/Phenom-bot-right.stl), [STEP](../step/body/Phenom-bot-right.stp)) in the positions shown
 
 ![Prepare the bottom-cover contact assemblies (optional) — phenom_bg_08_01.jpg](images/phenom_bg_08_01.jpg)
 
@@ -278,7 +278,7 @@ Prepare the contact boards and their cables, then secure the boards to the botto
 
 ### Step 10. Connect the contact assemblies to the holder boards (optional)
 
-Connect each bottom-cover contact assembly to its holder board with a JST SH 1.0 Cable, 14-Pin, 60mm
+Connect each bottom-cover [base contact assembly](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) to its [holder board](../pcb/holder/Gerber_PCB_Phenom_holder.zip) with a JST SH 1.0 Cable, 14-Pin, 60mm
 
 ![Connect the contact assemblies to the holder boards (optional) — phenom_bg_09_01.jpg](images/phenom_bg_09_01.jpg)
 
@@ -286,7 +286,7 @@ Connect each bottom-cover contact assembly to its holder board with a JST SH 1.0
 
 ### Step 11. Close the keyboard halves
 
-Make sure no cables are trapped between case parts. Fit the bottom covers and secure each one with three M3x5 screws
+Make sure no cables are trapped between case parts. Fit the left bottom cover ([STL](../stl/body/Phenom-bot-left.stl), [STEP](../step/body/Phenom-bot-left.stp)) and right bottom cover ([STL](../stl/body/Phenom-bot-right.stl), [STEP](../step/body/Phenom-bot-right.stp)) and secure each one with three M3x5 screws
 
 ![Close the keyboard halves — phenom_bg_10_01.jpg](images/phenom_bg_10_01.jpg)
 
@@ -308,7 +308,7 @@ Apply Bumpons 8x2 mm to the positions shown: five feet per half
 
 ### Step 14. Fit the module-port plugs (optional)
 
-If a half will be used without a module, fit the plug into its module connection recess. Skip the plug on any half where a module will be installed
+If a half will be used without a module, fit the module-port plug ([STL](../stl/body/Phenom-plug-body.stl), [STEP](../step/body/Phenom-plug-body.stp)) into its module connection recess. Skip the plug on any half where a module will be installed
 
 ![Fit the module-port plugs](images/phenom_bg_13_01.jpg)
 
@@ -316,13 +316,13 @@ If a half will be used without a module, fit the plug into its module connection
 
 ### Step 15. Prepare the encoder module parts
 
-Prepare the module housing and cover, Pogo system module PCB, Pogo system base PCB, Encoder PCB and Led PCB, an EC11 encoder, and an Encoder Knob 26x17mm, Black
+Prepare the left module housing ([STL](../stl/modules/encoder/Phenom-enc-body-left.stl), [STEP](../step/modules/encoder/Phenom-enc-body-left.stp)) and right module housing ([STL](../stl/modules/encoder/Phenom-enc-body-right.stl), [STEP](../step/modules/encoder/Phenom-enc-body-right.stp)), left module bottom cover ([STL](../stl/modules/encoder/Phenom-enc-bot-left.stl), [STEP](../step/modules/encoder/Phenom-enc-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/encoder/Phenom-enc-bot-right.stl), [STEP](../step/modules/encoder/Phenom-enc-bot-right.stp)), [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip), [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip), [Encoder PCB](../pcb/modules/encoder/Gerber_PCB_Encoder.zip) and [Led PCB](../pcb/modules/Gerber_PCB_Led.zip), an EC11 encoder, and an Encoder Knob 26x17mm, Black
 
 ![Prepare the encoder module parts — phenom_bg_15_01.jpg](images/phenom_bg_15_01.jpg)
 
 ### Step 16. Solder the encoder module pogo contacts
 
-Install and solder eight 7 mm pogo contacts to the module connection board in the orientation shown. Check that they are straight and move freely
+Install and solder eight 7 mm pogo contacts to the [module connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) in the orientation shown. Check that they are straight and move freely
 
 ![Solder the encoder module pogo contacts — phenom_bg_16_01.jpg](images/phenom_bg_16_01.jpg)
 
@@ -332,7 +332,7 @@ Install and solder eight 7 mm pogo contacts to the module connection board in th
 
 ### Step 17. Solder the encoder
 
-Fit the EC11 encoder to the Encoder PCB and solder its leads
+Fit the EC11 encoder to the [Encoder PCB](../pcb/modules/encoder/Gerber_PCB_Encoder.zip) and solder its leads
 
 ![Solder the encoder — phenom_bg_17_01.jpg](images/phenom_bg_17_01.jpg)
 
@@ -340,7 +340,7 @@ Fit the EC11 encoder to the Encoder PCB and solder its leads
 
 ### Step 18. Connect the encoder module boards
 
-Connect a JST SH 1.0 6-Pin 60mm cable to the encoder board and a JST SH 1.0 4-Pin 50mm cable to the Led PCB
+Connect a JST SH 1.0 6-Pin 60mm cable to the [encoder board](../pcb/modules/encoder/Gerber_PCB_Encoder.zip) and a JST SH 1.0 4-Pin 50mm cable to the [Led PCB](../pcb/modules/Gerber_PCB_Led.zip)
 
 ![Connect the encoder module boards — phenom_bg_18_01.jpg](images/phenom_bg_18_01.jpg)
 
@@ -352,7 +352,7 @@ Connect a JST SH 1.0 6-Pin 60mm cable to the encoder board and a JST SH 1.0 4-Pi
 
 ### Step 19. Prepare the encoder housing and docking area
 
-Fit the white insert into its seat in the housing. Check that the module housing aligns with the keyboard docking area
+Fit the white LED insert ([STL](../stl/modules/Phenom-led-insert.stl), [STEP](../step/modules/Phenom-led-insert.stp)) into its seat in the housing. Check that the left module housing ([STL](../stl/modules/encoder/Phenom-enc-body-left.stl), [STEP](../step/modules/encoder/Phenom-enc-body-left.stp)) and right module housing ([STL](../stl/modules/encoder/Phenom-enc-body-right.stl), [STEP](../step/modules/encoder/Phenom-enc-body-right.stp)) aligns with the keyboard docking area
 
 Install five Bar Magnet 5x2x10mm magnets with the opposite mating pole to the case magnets. Before inserting each magnet into the module, check that its mating face is attracted to the case
 
@@ -364,7 +364,7 @@ Install five Bar Magnet 5x2x10mm magnets with the opposite mating pole to the ca
 
 ### Step 20. Secure the encoder module boards
 
-Secure the connection board with M2x4 flat screws, and the encoder board and Led PCB with M2x4 screws. Route cables without tension or pinching
+Secure the [connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) with M2x4 flat screws, and the [encoder board](../pcb/modules/encoder/Gerber_PCB_Encoder.zip) and [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) with M2x4 screws. Route cables without tension or pinching
 
 ![Secure the encoder module boards — phenom_bg_20_01.jpg](images/phenom_bg_20_01.jpg)
 
@@ -376,7 +376,7 @@ Secure the connection board with M2x4 flat screws, and the encoder board and Led
 
 ### Step 21. Finish the encoder module
 
-Fit the bottom cover and encoder knob. Apply three Bumpons 8x2 mm feet
+Fit the left module bottom cover ([STL](../stl/modules/encoder/Phenom-enc-bot-left.stl), [STEP](../step/modules/encoder/Phenom-enc-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/encoder/Phenom-enc-bot-right.stl), [STEP](../step/modules/encoder/Phenom-enc-bot-right.stp)) and encoder knob. Apply three Bumpons 8x2 mm feet
 
 ![Finish the encoder module — phenom_bg_21_01.jpg](images/phenom_bg_21_01.jpg)
 
@@ -388,7 +388,7 @@ Fit the bottom cover and encoder knob. Apply three Bumpons 8x2 mm feet
 
 ### Step 22. Prepare the touchpad module parts
 
-Prepare the housing and cover, Pogo system module PCB, Pogo system base PCB and Led PCB, the Azoteq IQS43 Sensor touchpad, and the Acrylic Touchpad Plate
+Prepare the left module housing ([STL](../stl/modules/touchpad/Phenom-tp-body-left.stl), [STEP](../step/modules/touchpad/Phenom-tp-body-left.stp)) and right module housing ([STL](../stl/modules/touchpad/Phenom-tp-body-right.stl), [STEP](../step/modules/touchpad/Phenom-tp-body-right.stp)), left module bottom cover ([STL](../stl/modules/touchpad/Phenom-tp-bot-left.stl), [STEP](../step/modules/touchpad/Phenom-tp-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/touchpad/Phenom-tp-bot-right.stl), [STEP](../step/modules/touchpad/Phenom-tp-bot-right.stp)), [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip), [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip) and [Led PCB](../pcb/modules/Gerber_PCB_Led.zip), the Azoteq IQS43 Sensor touchpad, and the Acrylic Touchpad Plate
 
 ![Prepare the touchpad module parts — phenom_bg_22_01.jpg](images/phenom_bg_22_01.jpg)
 
@@ -426,7 +426,7 @@ Secure the soldered cable exit with hot glue. Apply the acrylic overlay
 
 ### Step 25. Prepare the touchpad housing and docking area
 
-Fit the white insert and check that the module housing aligns with the keyboard
+Fit the white LED insert ([STL](../stl/modules/Phenom-led-insert.stl), [STEP](../step/modules/Phenom-led-insert.stp)) and check that the left module housing ([STL](../stl/modules/touchpad/Phenom-tp-body-left.stl), [STEP](../step/modules/touchpad/Phenom-tp-body-left.stp)) and right module housing ([STL](../stl/modules/touchpad/Phenom-tp-body-right.stl), [STEP](../step/modules/touchpad/Phenom-tp-body-right.stp)) aligns with the keyboard
 
 Install five Bar Magnet 5x2x10mm magnets with the opposite mating pole to the case magnets. Before inserting each magnet into the module, check that its mating face is attracted to the case
 
@@ -440,7 +440,7 @@ Install five Bar Magnet 5x2x10mm magnets with the opposite mating pole to the ca
 
 ### Step 26. Connect the touchpad module boards
 
-Connect the touchpad using the prepared PH2.0 cable, and the Led PCB using a JST SH 1.0 4-Pin 50mm cable
+Connect the touchpad using the prepared PH2.0 cable, and the [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) using a JST SH 1.0 4-Pin 50mm cable
 
 ![Connect the touchpad module boards — phenom_bg_26_01.jpg](images/phenom_bg_26_01.jpg)
 
@@ -448,7 +448,7 @@ Connect the touchpad using the prepared PH2.0 cable, and the Led PCB using a JST
 
 ### Step 27. Secure the touchpad module electronics
 
-Fit the touchpad and acrylic overlay. Secure the Led PCB with M2x4 screws and the connection board with M2x4 flat screws. Route the cables so they do not interfere with the bottom cover
+Fit the touchpad and acrylic overlay. Secure the [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) with M2x4 screws and the [connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) with M2x4 flat screws. Route the cables so they do not interfere with the bottom cover
 
 ![Secure the touchpad module electronics — phenom_bg_27_01.jpg](images/phenom_bg_27_01.jpg)
 
@@ -466,7 +466,7 @@ Fit the touchpad and acrylic overlay. Secure the Led PCB with M2x4 screws and th
 
 ### Step 28. Finish the touchpad module
 
-Fit the bottom cover and apply three Bumpons 8x2 mm feet
+Fit the left module bottom cover ([STL](../stl/modules/touchpad/Phenom-tp-bot-left.stl), [STEP](../step/modules/touchpad/Phenom-tp-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/touchpad/Phenom-tp-bot-right.stl), [STEP](../step/modules/touchpad/Phenom-tp-bot-right.stp)) and apply three Bumpons 8x2 mm feet
 
 ![Finish the touchpad module — phenom_bg_28_01.jpg](images/phenom_bg_28_01.jpg)
 
@@ -476,13 +476,13 @@ Fit the bottom cover and apply three Bumpons 8x2 mm feet
 
 ### Step 29. Prepare the trackball module parts
 
-Prepare the housing and cover, Pogo system module PCB, Pogo system base PCB, Trackball PCB and Led PCB, the PMW3610 sensor, LM18-LSI lens, and dark-red 32 mm trackball
+Prepare the left module housing ([STL](../stl/modules/trackball/Phenom-tb-body-left.stl), [STEP](../step/modules/trackball/Phenom-tb-body-left.stp)) and right module housing ([STL](../stl/modules/trackball/Phenom-tb-body-right.stl), [STEP](../step/modules/trackball/Phenom-tb-right.stp)), left module bottom cover ([STL](../stl/modules/trackball/Phenom-tb-bot-left.stl), [STEP](../step/modules/trackball/Phenom-tb-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/trackball/Phenom-tb-bot-right.stl), [STEP](../step/modules/trackball/Phenom-tb-bot-right.stp)), [Pogo system module PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip), [Pogo system base PCB](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_base.zip), [Trackball PCB](../pcb/modules/trackball/Gerber_PCB_Trackball.zip) and [Led PCB](../pcb/modules/Gerber_PCB_Led.zip), the PMW3610 sensor, LM18-LSI lens, and dark-red 32 mm trackball
 
 ![Prepare the trackball module parts — phenom_bg_29_01.jpg](images/phenom_bg_29_01.jpg)
 
 ### Step 30. Solder the trackball module pogo contacts
 
-Install and solder eight 7 mm pogo contacts to the module connection board in the orientation shown
+Install and solder eight 7 mm pogo contacts to the [module connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) in the orientation shown
 
 ![Solder the trackball module pogo contacts — phenom_bg_30_01.jpg](images/phenom_bg_30_01.jpg)
 
@@ -526,7 +526,7 @@ Install and solder the sensor-board connector and PMW3610 sensor. Check the sold
 
 ### Step 32. Connect the trackball module boards
 
-Connect the sensor board to the module connection board with a JST SH 1.0 6-Pin 60mm cable, and connect the Led PCB with a JST SH 1.0 4-Pin 50mm cable
+Connect the [sensor board](../pcb/modules/trackball/Gerber_PCB_Trackball.zip) to the [module connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) with a JST SH 1.0 6-Pin 60mm cable, and connect the [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) with a JST SH 1.0 4-Pin 50mm cable
 
 ![Connect the trackball module boards — phenom_bg_32_01.jpg](images/phenom_bg_32_01.jpg)
 
@@ -538,7 +538,7 @@ Connect the sensor board to the module connection board with a JST SH 1.0 6-Pin 
 
 ### Step 33. Prepare the trackball housing and docking area
 
-Fit the white insert and check that the module housing aligns with the keyboard
+Fit the white LED insert ([STL](../stl/modules/Phenom-led-insert.stl), [STEP](../step/modules/Phenom-led-insert.stp)) and check that the left module housing ([STL](../stl/modules/trackball/Phenom-tb-body-left.stl), [STEP](../step/modules/trackball/Phenom-tb-body-left.stp)) and right module housing ([STL](../stl/modules/trackball/Phenom-tb-body-right.stl), [STEP](../step/modules/trackball/Phenom-tb-right.stp)) aligns with the keyboard
 
 Install eight Bar Magnet 5x2x10mm magnets with the opposite mating pole to the case magnets. Before inserting each magnet into the module, check that its mating face is attracted to the case
 
@@ -550,7 +550,7 @@ Install eight Bar Magnet 5x2x10mm magnets with the opposite mating pole to the c
 
 ### Step 34. Secure the trackball module electronics
 
-Secure the sensor board and Led PCB with M2x4 screws, and the connection board with M2x4 flat screws. Route the cables clear of the optical opening and bottom cover
+Secure the [sensor board](../pcb/modules/trackball/Gerber_PCB_Trackball.zip) and [Led PCB](../pcb/modules/Gerber_PCB_Led.zip) with M2x4 screws, and the [connection board](../pcb/pogo_system/Gerber_PCB_Phenom_pogo_system_module.zip) with M2x4 flat screws. Route the cables clear of the optical opening and bottom cover
 
 ![Secure the trackball module electronics — phenom_bg_34_01.jpg](images/phenom_bg_34_01.jpg)
 
@@ -575,7 +575,7 @@ Press three 3 mm support balls into the bowl recesses using a suitable rounded t
 
 ### Step 36. Close the trackball module
 
-Fit the bottom cover and apply three Bumpons 8x2 mm feet
+Fit the left module bottom cover ([STL](../stl/modules/trackball/Phenom-tb-bot-left.stl), [STEP](../step/modules/trackball/Phenom-tb-bot-left.stp)) and right module bottom cover ([STL](../stl/modules/trackball/Phenom-tb-bot-right.stl), [STEP](../step/modules/trackball/Phenom-tb-bot-right.stp)) and apply three Bumpons 8x2 mm feet
 
 ![Close the trackball module — phenom_bg_36_01.jpg](images/phenom_bg_36_01.jpg)
 
