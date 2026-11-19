@@ -106,6 +106,8 @@ Each module table includes its pogo system base and module boards; do not add an
 | Pogo system base PCB | 1 pc |
 | Encoder PCB | 1 pc |
 | Led PCB | 1 pc |
+| LED SK6812 mini-e | 1 pc |
+| ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-6PWT | 1 pc |
 | ZX-SH1.0-14PWT | 1 pc |
@@ -132,6 +134,8 @@ Each module table includes its pogo system base and module boards; do not add an
 | Pogo system module PCB | 1 pc |
 | Pogo system base PCB | 1 pc |
 | Led PCB | 1 pc |
+| LED SK6812 mini-e | 1 pc |
+| ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-14PWT | 1 pc |
 | Pogo Pin Connector, 7mm | 6 pcs |
@@ -156,6 +160,8 @@ Each module table includes its pogo system base and module boards; do not add an
 | Pogo system base PCB | 1 pc |
 | Trackball PCB | 1 pc |
 | Led PCB | 1 pc |
+| LED SK6812 mini-e | 1 pc |
+| ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-4PWT | 1 pc |
 | ZX-SH1.0-9PWT | 1 pc |
 | ZX-SH1.0-14PWT | 1 pc |
