@@ -39,8 +39,12 @@
 
 ## Build guides
 
-- [Body assembly](build_guide/body.md)
-- [Module assembly](build_guide/modules.md)
+| PCB build guide |
+| --- |
+| [Body](build_guide/body.md) |
+| [Encoder module](build_guide/modules.md#encoder-module) |
+| [Touchpad module](build_guide/modules.md#touchpad-module) |
+| [Trackball module](build_guide/modules.md#trackball-module) |
 
 ## Files
 
