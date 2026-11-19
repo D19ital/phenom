@@ -296,7 +296,7 @@ Position the boards at the USB-C openings and secure each board with two M3x5 sc
 <details>
 <summary>Step illustrations</summary>
 
-![Entropy Matrix Tester — interface shown in Russian](images/entropy_matrix_tester_ru.jpg)
+![Entropy Matrix Tester — all 58 positions tested](images/entropy_matrix_tester.png)
 
 </details>
 
