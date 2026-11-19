@@ -16,7 +16,7 @@
 ![Phenom — layout](images/phenom_layout_en.png)
 
 <details>
-<summary>Phenom Mini</summary>
+<summary><h3>Phenom Mini</h3></summary>
 
 ![Phenom Mini](images/phenom_mini.jpg)
 
@@ -27,7 +27,7 @@
 </details>
 
 <details>
-<summary>Phenom Micro</summary>
+<summary><h3>Phenom Micro</h3></summary>
 
 ![Phenom Micro](images/phenom_micro.jpg)
 
