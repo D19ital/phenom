@@ -11,7 +11,7 @@
 - Scroll, Sniper, and Text modes for trackball and touchpad modules
 - Key remapping and keyboard configuration through [Entropy](https://entropy.tools/)
 - USB Type-C connectivity
-- QMK/RMK firmware
+- QMK firmware
 
 ![Phenom — layout](images/phenom_layout_en.png)
 
@@ -201,8 +201,6 @@ See [LICENSE](LICENSE) for the full text
 
 - [Pre-compiled firmware (QMK)](https://github.com/ergohaven/vial-qmk/releases/latest)
 - [Source code (QMK)](https://github.com/ergohaven/vial-qmk)
-- [Pre-compiled firmware (RMK)](https://github.com/ergohaven/rmk/releases/latest)
-- [Source code (RMK)](https://github.com/ergohaven/rmk)
 - [Firmware selector and update instructions](https://docs.eh.works/firmware/)
 
 ## Availability
